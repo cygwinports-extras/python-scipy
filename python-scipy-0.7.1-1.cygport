@@ -1,0 +1,8 @@
+inherit distutils
+
+DESCRIPTION="Numeric Python module"
+HOMEPAGE="http://www.scipy.org/"
+SRC_URI="mirror://sourceforge/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+
+# interferes with get_flags_linker_so in numpy.distutils.fcompiler
+unset LDFLAGS

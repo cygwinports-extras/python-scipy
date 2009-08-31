@@ -1,0 +1,61 @@
+python-scipy
+------------------------------------------
+SciPy is a collection of mathematical algorithms and convenience 
+functions built on the Numpy extension for Python. It adds significant 
+power to the interactive Python session by exposing the user to 
+high-level commands and classes for the manipulation and visualization 
+of data. With SciPy, an interactive Python session becomes a 
+data-processing and system-prototyping environment rivaling sytems such 
+as Matlab, IDL, Octave, R-Lab, and SciLab.
+
+Runtime requirements:
+  cygwin-1.7.0-60
+  libarpack0-96-1
+  libgcc1-4.3.2-2
+  libgfortran3-4.3.2-2
+  liblapack0-3.1.1-2
+  libstdc++6-4.3.2-2
+  python-2.5.4-10
+  python-numpy-1.3.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  gcc4-fortran-4.3.2-2
+
+Canonical website:
+  http://www.scipy.org/
+
+Canonical download:
+  http://downloads.sourceforge.net/scipy/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-scipy-0.7.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-scipy-0.7.1-X.cygport all
+
+This will create:
+  /usr/src/python-scipy-0.7.1-X-src.tar.bz2
+  /usr/src/python-scipy-0.7.1-X.tar.bz2
+
+A list of the files in the binary package is available from the
+command-line with "cygcheck -l python-scipy", or online at
+<http://cygwin.com/packages/python-scipy/>.
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.7.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

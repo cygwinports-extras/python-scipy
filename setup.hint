@@ -1,0 +1,10 @@
+category: Python
+requires: libarpack0 libgcc1 libgfortran3 liblapack0 libstdc++6 python python-numpy
+sdesc: "Scientific Python extensions"
+ldesc: "SciPy is a collection of mathematical algorithms and convenience 
+functions built on the Numpy extension for Python. It adds significant 
+power to the interactive Python session by exposing the user to 
+high-level commands and classes for the manipulation and visualization 
+of data. With SciPy, an interactive Python session becomes a 
+data-processing and system-prototyping environment rivaling sytems such 
+as Matlab, IDL, Octave, R-Lab, and SciLab."
